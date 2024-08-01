@@ -17,6 +17,8 @@ import {
   exercise,
   
   threejs,
+  shirt,
+  bhojan,
 } from "../assets";
 
 export const navLinks = [
@@ -68,10 +70,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -80,10 +82,14 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name:"SQL",
+  //   icon: 
+  // }
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 // const experiences = [
@@ -136,7 +142,7 @@ const projects = [
   {
     name: "Exercise App",
     description:
-      "Web-based platform with the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples, pagination, exercise details, display similar exercises, and much more",
+      "Web-based platform with the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples,  display similar exercises, and much more.",
     tags: [
       {
         name: "react",
@@ -154,48 +160,48 @@ const projects = [
     image: exercise,
     source_code_link: "https://github.com/Manish-S0/exercise_app",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "3D Product Website",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "3D Shirt Customizer",
+    description:
+      "Web application that enables users to customize T-shirt colors, upload and position logos on T-shirts, and download the customized T-shirt.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shirt,
+    source_code_link: "https://github.com/Manish-S0/3d-shirt-customizer-",
+  },
+  {
+    name: "Food Delivery Website",
+    description:
+      "A comprehensive food ordering platform that allows customers to explore, select, and order their favorite meals from a variety of dishes and add items to their cart and view a real-time summary of their order.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: bhojan,
+    source_code_link: "https://github.com/",
+  },
 ];
 
 // export { services, technologies, experiences, testimonials, projects };

@@ -23,6 +23,8 @@ import threejs from "./tech/threejs.svg";
 
 
 import exercise from "./exercise.png";
+import shirt from "./3d_shirt.png";
+import bhojan from "./bhojan.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -49,6 +51,8 @@ export {
   typescript,
   threejs,
   exercise,
+  shirt,
+  bhojan,
   jobit,
   tripguide,
 };
